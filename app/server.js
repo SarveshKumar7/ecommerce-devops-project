@@ -2,8 +2,8 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  // res.send("E-commerce App Running 🚀");
-  res.send("Auto Deploy Working 🚀");
+  res.send("E-commerce App Running 🚀");
+  // res.send("Auto Deploy Working 🚀");
 });
 
 app.get("/products", (req, res) => {
